@@ -1,0 +1,49 @@
+body {
+  background-color: #A9DFBF;
+  display: flex;
+  justify-content: center;
+}
+body .title-proy {
+  text-align: center;
+  color: #0033CC;
+}
+body .container {
+  background-color: white;
+  width: 1250px;
+  padding: 10px;
+  box-shadow: 0 0 12px black;
+  font: 10px Arial, sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+body .container #title {
+  font-size: 2.5rem;
+}
+body .container #description {
+  font-size: 1rem;
+  margin-top: -15px;
+}
+body .container .canvas {
+  min-width: 1000px;
+  min-height: 600px;
+}
+body .container #tooltip {
+  font: 12px Arial, sans-serif;
+  color: #212F3D;
+  padding: 10px;
+  background-color: #76D7C4;
+  border-radius: 5px;
+  position: absolute;
+  opacity: 0;
+}
+body .container #legend rect {
+  stroke: black;
+}
+body .container #legend rect .tick {
+  font-size: 0.7rem;
+}
+
+.county :hover {
+  stroke: white;
+}/*# sourceMappingURL=styles.css.map */
